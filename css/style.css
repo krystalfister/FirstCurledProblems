@@ -28,6 +28,15 @@ h1 {
     text-align: center;
 }
 
+ul{
+    display: inline;
+    padding: 0 !important;
+}
+    li{
+        list-style: none !important;
+        display: inline-block !important;
+    }
+
 .tagline {
     font-size: 22px;
 }
@@ -90,11 +99,16 @@ p {
 
 /*Tablet Layout*/
 @media screen and (max-width: 1080px) {
-    
+
 }
         
         
 /*iPhone Layout*/
 @media screen and (max-width: 480px) {
-    
+  .logo{
+        width: 80%;
+    }  
+    p {
+        padding: 0 20px;
+    }
 }
