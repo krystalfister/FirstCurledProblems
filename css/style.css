@@ -48,11 +48,16 @@ ul{
 
 .tagline {
     font-size: 22px;
+    max-width: 640px;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: #565554;
+}
+
+.question {
+    padding-bottom: 1em;
 }
 
 .tab {

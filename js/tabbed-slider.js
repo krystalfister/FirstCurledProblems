@@ -33,8 +33,21 @@ $(document).ready(function () {
     });
 });
 
-/* Highlight Tab When Selected */
+/* Click on Question to show results */
 
+$(document).ready(function () {
+    $('div.result').hide();
+    
+    $('.question').click(function () {
+        $('div.question').hide();
+        $('div.result').slideToggle();
+    });
+
+});
+
+
+/* Highlight Tab When Selected */
+/*
 if ($('.tabs-holder').length) {
 
     var $tabsHolder = $('.tabs-holder');
@@ -60,4 +73,4 @@ if ($('.tabs-holder').length) {
         });
 
     });
-} 
+} */
