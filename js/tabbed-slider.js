@@ -33,37 +33,6 @@ $(document).ready(function () {
     });
 });
 
-/* Hair Type Selection Boxes */
-
-$(document).ready(function () {
-    $('div.curlType').hide();
-    
-    $('.one').click(function () {
-        $('div.two').hide();
-        $('div.three').hide();
-        $('div.four').hide();
-        $('div.one').slideToggle();
-    });
-    $('.two').click(function () {
-            $('div.one').hide();
-            $('div.three').hide();
-            $('div.four').hide();
-        $('div.two').slideToggle();
-    });
-    $('.three').click(function () {
-        $('div.one').hide();
-        $('div.two').hide();
-        $('div.four').hide();
-        $('div.three').slideToggle();
-    });
-    $('.four').click(function () {
-        $('div.one').hide();
-        $('div.two').hide();
-        $('div.three').hide();
-        $('div.four').slideToggle();
-    });
-});
-
 /* Highlight Tab When Selected */
 
 if ($('.tabs-holder').length) {
@@ -91,4 +60,4 @@ if ($('.tabs-holder').length) {
         });
 
     });
-}
+} 
