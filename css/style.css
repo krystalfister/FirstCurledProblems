@@ -1,9 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700|Open+Sans);
 
-body {
-    margin: 0;
-}
-
 h1 {
     font-family: 'Dancing Script', cursive;
     color: #f1592a;
@@ -37,11 +33,12 @@ h1 {
     width: 100%;
 }
 
-ul{
+ul {
     display: inline;
     padding: 0 !important;
 }
-    li{
+
+    li {
         list-style: none !important;
         display: inline-block !important;
     }
@@ -111,11 +108,30 @@ a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     width: 100%;
+    margin-left: 6px;
 
+}
+.add-tip-btn:hover,
+.add-tip-btn:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  background-color: #D14019;
+}
+
+.green-btn {
+    background-color: #4eacb1;
+}
+
+.green-btn:hover,
+.green-btn:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  background-color: #039097;
 }
 
 .btn {
-    background-color: #4eacb1;
     color: #fff;
     display: inline-block;
     padding: 12px 100px 6px;
@@ -135,14 +151,6 @@ a {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-}
-
-.btn:hover,
-.btn:focus {
-  color: #B2D1E5;
-  text-decoration: none;
-  outline: none;
-  background-color: #039097;
 }
 
 .btn:active,
